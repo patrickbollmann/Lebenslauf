@@ -1,0 +1,96 @@
+\documentclass[11pt,ngerman]{moderncv}
+
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=3cm,bmargin=2cm,lmargin=2.5cm,rmargin=2.5cm}
+\usepackage{graphicx}
+\usepackage{babel}
+
+% ModernCV theme settings
+\moderncvtheme[blue]{classic}
+
+% Add page numbering
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot[C]{\textcolor{gray}{\thepage\ von \pageref{LastPage}}}
+
+% Personal details
+\name{Patrick}{Bollmann}
+\photo[100pt][0pt]{cv-img.png}
+\title{Lebenslauf}
+\address{Sterkenkamp 30}{58640 Iserlohn}
+\mobile{+49 175 7185105}
+\email{patrickbollmann00@gmail.com}
+\homepage{www.patrickbollmann.de}
+
+\begin{document}
+\makecvtitle
+
+\section{Pers\"onliche Daten}
+\cvitem{Name}{Patrick Bollmann}
+\cvitem{Geburtsdatum}{07.11.1997}
+\cvitem{Geburtsort}{L\"ubbecke}
+
+\section{Schule, Studium, Weiterbildung}
+\cventry{2023}{\href{https://www.credly.com/badges/5bd52cae-78d0-496f-b338-4a91daf7fcd7/linked_in_profile}{Google Cyber Security Certificate}}{Freiwillige Zertifizierung}{}{Deutschland}{Schwerpunkte: Authentifizierung, Sicherheitsbewertung, Risikoanalyse, Netzwerksicherheit, SIEM-Tools}
+\cventry{2016 -- 2022}{Bachelor of Science - Informatik}{Universit\"at Paderborn}{}{Deutschland}{Schwerpunkte: Softwareentwicklung, Data Science, Machine Learning}
+\cventry{2008 -- 2016}{Allgemeine Hochschulreife}{St\"adtisches Gymnasium L\"ohne}{Deutschland}{}{}
+
+\section{Praktische Erfahrungen}
+\cventry{Seit 2022}{Software-Consultant}{\href{https://solutit.de}{SolutiT GmbH}}{}{}{ 
+  Verantwortlich f\"ur Projektleitung, Software-Architektur und Full-Stack-Entwicklung.
+  \begin{itemize}
+    \item Entwicklung und Implementierung von Softwarel\"osungen f\"ur Kundenprojekte
+    \item Optimierung bestehender Systeme und Architekturentscheidungen
+    \item Technologien: .NET C\#, Blazor, Angular, Vue.js, SQL, Electron, Node.js
+  \end{itemize}
+}
+
+\cventry{2020 -- 2022}{Entwicklung einer Buchhaltungssoftware}{}{}{}{
+  Eigenst\"andige Softwareentwicklung mit zwei Kommilitonen:
+  \begin{itemize}
+    \item Entwicklung eines skalierbaren Buchhaltungssystems
+    \item Technologien: .NET Core (C\#), MySQL, Angular
+    \item Fokus auf Benutzerfreundlichkeit und Performance-Optimierung
+  \end{itemize}
+}
+
+\cventry{2017 -- 2022}{Selbstst\"andige T\"atigkeit}{Nebenberufliche Projekte}{Paderborn}{Deutschland}{}
+\cvlistitem{\textbf{Mobiloparts (2020 -- 2022)}: Aufbau eines Online-Shops f\"ur Smartphone-Ersatzteile mit eigenem Vertrieb}
+\cvlistitem{\textbf{Mobilofix (2018 -- 2022)}: Reparaturdienst f\"ur Smartphones mit \"uber 1000 durchgef\"uhrten Reparaturen}
+\cvlistitem{\textbf{3D-Druck-Service (2017 -- 2018)}: Design und Fertigung von Prototypen f\"ur verschiedene Anwendungen}
+
+\newpage
+
+\section{Ehrenamtliche Arbeit}
+\cventry{2019 -- 2022}{Mitglied des Studierendenparlaments}{Universit\"at Paderborn}{}{Deutschland}{Dreifach gew\"ahltes Mitglied mit Fokus auf Hochschulpolitik und studentische Interessenvertretung.}
+\cventry{2018 -- 2020}{Mitglied des Fachschaftsrats}{Mathematik/Informatik, Universit\"at Paderborn}{}{Deutschland}{Zweifach gew\"ahltes Mitglied.}
+\cventry{2017 -- 2018}{Mitglied}{Oikos Hochschulgruppe}{Universit\"at Paderborn}{Deutschland}{Mitglied der Hochschulgruppe f\"ur Nachhaltigkeit.}
+
+\section{Sprachkenntnisse}
+\cvitem{Deutsch}{Muttersprache}
+\cvitem{Englisch}{Sehr gute Kenntnisse in Wort und Schrift}
+\cvitem{}{10 Jahre Schulausbildung, englischsprachige Vorlesungen, Abschlussarbeit in Englisch, Arbeit in englischsprachigen Softwareprojekten}
+
+\section{Kenntnisse}
+\cventry{Programmierung}{Full-Stack Webentwicklung}{}{}{}{
+  \begin{itemize}
+    \item Exzellente Kenntnisse in .NET (C\#), SQL-Datenbanken, Blazor
+    \item Weitreichende Erfahrung im Jvascript-Umfeld: Angular, Vue.js, Electron, Node.JS
+    \item Kenntnisse in Machine Learning (Transformer, PyTorch)
+  \end{itemize}
+}
+
+\cventry{Betriebssysteme}{Windows, Mac OS, Linux}{}{}{}{Gute Kenntnisse in Microsoft Windows, Mac OS und Linux}
+\cventry{Anwendungen}{Office, \LaTeX{}, Git, Docker}{}{}{}{Weit umfassende Kenntnisse in Office, \LaTeX{}, Git und Docker}
+\cventry{Universit\"at}{Kenntnisse durch die Universit\"at}{}{}{}{Vertiefung in \glqq Data Science\grqq{} und \glqq Efficient Algorithms\grqq{}. Abschlussarbeit \"uber Machine Learning und Textverarbeitung}
+
+\section{Hobbys - Interessen}
+\cvitem{Sport}{Rennradfahren, Schwimmen, Fitnessstudio}
+\cvitem{Technik}{Interesse an Software-Architektur, Open-Source-Projekten}
+\cvitem{Weiterbildung}{Interesse weiterbildung und Verbesserung meiner technischen Fähigkeiten}
+
+\end{document}
